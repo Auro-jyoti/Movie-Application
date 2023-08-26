@@ -6,13 +6,13 @@ body {
 }
 
 .container {
-    width: 700px;
+    width: 60%;
     margin: 16px auto;
     color: white;
 }
 
 .movie-container {
-    width: 700px;
+    width: 60%;
     margin: 16px auto;
     color: rgba(255, 255, 255, 0.784);
     display: flex;
