@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search">
+        <input type="text" placeholder="Search any Movie..." id="movieName" />
+        <button class="btn" onClick="searchMovies()" id="btn">Search Movie</button>
+      </div>
+    </div>
+
+    <div class="loader-container" > 
+      <div class="loader" id="animation-loader"></div>
+    </div>
+
+    <div class="movie-container" id="container">
+      <div>
+        <h2 id="title">The Avengers</h2>
+        <p>Released on: <span id="date"></span></p>
+        <p>Director: <span id="director"></span></p>
+        <p>Actors: <span id="actors"></span></p>
+        <p>Genre: <span id="genre"></span></p>
+        <p>Desc: <span id="desc"></span></p>
+        <p>Box office collection: <span id="collection"></span></p>
+        <p>Awards: <span id="awards"></span></p>
+        <p>Writer: <span id="writer"></span></p>
+      </div>
+      <div class="poster">
+        <img
+          id="img"
+          src="https://m.media-amazon.com/images/M/MV5BODUwNDNjYzctODUxNy00ZTA2LWIyYTEtMDc5Y2E5ZjBmNTMzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+          ,
+          alt=""
+        />
+        <div class="ratings">IMDB : <span id="ratings"></span></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
